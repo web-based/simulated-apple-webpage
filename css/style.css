@@ -155,20 +155,20 @@ a:hover {
   }
   .img {
     width: 350px;
-    margin-top: 250px;
+    margin-top: 450px;
   }
 }
 
 @media only screen and (max-width: 420px) {
   .img {
     width: 350px;
-    margin-top: 120px;
+    margin-top: 420px;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .img {
     width: 250px;
-    margin-top: 130px;
+    margin-top: 430px;
   }
 }
