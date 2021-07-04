@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  color: #f5f5f7;
+}
+
+h1 {
+  font-size: 10vh;
+  font-size: 5vw;
+  margin-bottom: 0;
+  font-weight: 600px;
+}
+
+h2 {
+  font-size: 6vh;
+  font-size: 3vw;
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #86868b;
+  font-size: 1.5vw;
+  margin-bottom: 20px;
+}
+
+.main-link {
+  font-size: 2vw;
+  padding: 0 15px;
+  text-decoration: none;
+  color: #4c95f7;
+}
+
+.img {
+  width: 1060px;
+  margin-top: 80px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.super {
+  font-size: 1.2vw;
+  padding: 0 0;
+  color: #86868b;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.super:hover {
+  color: #4c95f7;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  margin: auto;
+}
+
+.white {
+  height: 20px;
+  background-color: white;
+}
+
+/* |||||||||||||||||||||||||||| MEDIA BREAKS  ||||||||||||||||||||||||||||||| */
+
+@media only screen and (max-width: 1460px) {
+  .img {
+    width: 960px;
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .img {
+    width: 860px;
+    margin-top: 50px;
+  }
+
+  .super {
+    font-size: 1.2vw;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .img {
+    width: 798px;
+    margin-top: 40px;
+  }
+  .super {
+    font-size: 1.2vw;
+  }
+}
+
+@media only screen and (max-width: 798px) {
+  .img {
+    width: 600px;
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .super {
+    font-size: 1.2vw;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .img {
+    width: 450px;
+    margin-top: 80px;
+  }
+
+  .main-link {
+    font-size: 2.5vw;
+  }
+
+  .super {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main-link {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .img {
+    width: 450px;
+    margin-top: 80px;
+  }
+}
