@@ -153,11 +153,22 @@ a:hover {
   .main-link {
     font-size: 3vw;
   }
+  .img {
+    width: 350px;
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (max-width: 420px) {
   .img {
-    width: 450px;
+    width: 250px;
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .img {
+    width: 150px;
     margin-top: 80px;
   }
 }
