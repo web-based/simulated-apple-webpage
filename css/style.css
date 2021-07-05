@@ -34,7 +34,7 @@ p {
   margin-bottom: 20px;
 }
 
-/* |||||||||||||||||||||||||||||||| Classes |||||||||||||||||||||||||||||||||| */
+/* |||||||||||||||||||||||||||||||| CLASSES |||||||||||||||||||||||||||||||||| */
 
 .main-link {
   font-size: 2vw;
@@ -155,6 +155,7 @@ a:hover {
   .main-link {
     font-size: 3vw;
   }
+  
   .img {
     width: 350px;
     margin-top: 100px;
