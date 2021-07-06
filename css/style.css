@@ -98,7 +98,7 @@ a:hover {
 
 .bottom-container{
   padding: 2rem 0;
-  background-color:#1238d1;
+  background-image: linear-gradient(to bottom, #1238d1, #4c95f7);
   height:200px;
 }
 
@@ -107,6 +107,7 @@ a:hover {
 }
 
 /* |||||||||||||||||||||||||||| MEDIA BREAKS  ||||||||||||||||||||||||||||||| */
+
 @media only screen and (max-width: 1680px) {
   .img {
     width: 960px;
