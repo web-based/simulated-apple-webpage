@@ -98,7 +98,7 @@ a:hover {
 
 .bottom-container{
   padding: 2rem 0;
-  background-image: linear-gradient(to bottom right, #1238d1, #4c95f7);
+  background-color:#1238d1;
   height:200px;
 }
 
