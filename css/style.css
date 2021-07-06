@@ -1,16 +1,20 @@
+/* Google font
+font-family: 'Montserrat', sans-serif; */
+
 * {
-  margin: 0;
+  margin: 0 ;
   padding: 0;
 }
 
 body {
   background-color: black;
   text-align: center;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica","Arial", sans-serif;
   font-style: normal;
 }
 
-h1,h2 {
+h1,
+h2 {
   color: #f5f5f7;
 }
 
@@ -34,7 +38,10 @@ p {
   margin-bottom: 20px;
 }
 
-/* |||||||||||||||||||||||||||||||| CLASSES |||||||||||||||||||||||||||||||||| */
+button {
+  padding:0;
+  margin:0 1%;
+}
 
 .main-link {
   font-size: 2vw;
@@ -45,7 +52,11 @@ p {
 
 .img {
   width: 1060px;
-  margin-top: 80px;
+  margin-top: 110px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .super {
@@ -56,7 +67,12 @@ p {
   margin-bottom: 20px;
 }
 
-.container {
+.super:hover {
+  color: #4c95f7;
+  text-decoration: none;
+}
+
+.contain {
   position: relative;
 }
 
@@ -69,26 +85,50 @@ p {
 
 .white {
   height: 20px;
-  background-color: white;
+  background-color: #f5f5f7;
 }
 
-/* |||||||||||||||||||||||||||| PSEUDO CLASSES ||||||||||||||||||||||||||||| */
-
-a:hover {
-  text-decoration: underline;
+.btn-text p{
+  padding:0 7%;
+  font-size:1rem;
+  color:#f5f5f7;
+  margin-bottom:0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.super:hover {
-  color: #4c95f7;
-  text-decoration: none;
+.bottom-container{
+  padding: 2rem 0;
+  background-image: linear-gradient(180deg, #1238d1, #4c95f7);
+  height:200px;
+}
+
+.btns {
+  padding: 1rem 2rem;
 }
 
 /* |||||||||||||||||||||||||||| MEDIA BREAKS  ||||||||||||||||||||||||||||||| */
+@media only screen and (max-width: 1680px) {
+  .img {
+    width: 960px;
+    margin-top: 100px;
+  }
+
+  .bottom-container {
+    padding: 5rem 0;
+    background-color:#1238d1;
+    height:290px;
+  }
+}
 
 @media only screen and (max-width: 1460px) {
   .img {
     width: 960px;
     margin-top: 60px;
+  }
+  .bottom-container {
+    padding: 5rem 0;
+    background-color:#1238d1;
+    height:300px;
   }
 }
 
@@ -101,12 +141,42 @@ a:hover {
   .super {
     font-size: 1.2vw;
   }
+
+  .bottom-container {
+    padding: 8rem 0;
+    background-color:#1238d1;
+    height:390px;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .img {
+    width: 860px;
+    margin-top: 40px;
+  }
+
+  .super {
+    font-size: 1.2vw;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .img {
+    width: 800px;
+    margin-top: 50px;
+  }
+
+  .super {
+    font-size: 1.2vw;
+  }
+
+
 }
 
 @media only screen and (max-width: 960px) {
   .img {
-    width: 798px;
-    margin-top: 40px;
+    width: 760px;
+    margin-top: 30px;
   }
   .super {
     font-size: 1.2vw;
@@ -116,7 +186,7 @@ a:hover {
 @media only screen and (max-width: 798px) {
   .img {
     width: 600px;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   h1 {
@@ -139,7 +209,7 @@ a:hover {
 @media only screen and (max-width: 620px) {
   .img {
     width: 450px;
-    margin-top: 80px;
+    margin-top: 95px;
   }
 
   .main-link {
@@ -155,10 +225,8 @@ a:hover {
   .main-link {
     font-size: 3vw;
   }
-  
   .img {
     width: 350px;
-    margin-top: 100px;
+    margin-top: 110px;
   }
 }
-
